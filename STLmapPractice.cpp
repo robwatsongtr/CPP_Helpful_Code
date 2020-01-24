@@ -43,6 +43,9 @@ int main () {
 
 	// output the map using standard for loop and iterator/pointer
 	// Note that James was created as a name, but with no value
+	// **Attempting to access a key using operator[] will cause the map to
+	// create an entry for that key, using the pair <Key, new ValueType()>**
+
 	for(auto it = grade_list.begin(); it != grade_list.end(); ++it) {
 		std::cout << it->first << ": " << it->second << std::endl;
 	}
