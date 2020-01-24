@@ -1,9 +1,6 @@
 //
-//  main.cpp
-//  map_and_list
-//
-//  Created by Robert Watson on 12/19/19.
-//  Copyright © 2019 Robert Watson. All rights reserved.
+//  Created by Robert Diamond as a demonstration of 
+//  the nested data structures of list and set within a map
 //
 
 #include <iostream>
