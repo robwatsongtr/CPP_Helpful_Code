@@ -38,7 +38,7 @@ int main () {
 	// change entries
 	grade_list["Jeff"] = 'F'; // change Jeff
 	grade_list["John"] = 'A';  // change John
-	grade_list.insert(std::pair<std::string, char>("Julie", 'F')); // didn't change!!!
+	grade_list.insert(std::make_pair("Julie", 'F')); // didn't change!!!
 	grade_list["Julie"] = 'V'; // changed it!
 
 	// output the map using standard for loop and iterator/pointer
