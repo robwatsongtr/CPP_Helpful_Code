@@ -9,7 +9,7 @@ taken from internet and my brain, just trying it out
 
 int main () {
 
-	// define a map named grade_list as a string / char name-value pair
+	// Declare a map named grade_list as a string / char name-value pair
 	std::map<std::string, char> grade_list;
 
 	// put some data in to that bad boy using [] notation
