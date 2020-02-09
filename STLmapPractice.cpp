@@ -52,7 +52,7 @@ int main () {
 
 	std::cout << '\n';
 
-	// range based for loop with no iterator
+	// range based for loop with no iterator, using public members first and second. 
 	for(auto it : grade_list) {
 		std::cout << it.first << ": " << it.second << '\n';
 	}
